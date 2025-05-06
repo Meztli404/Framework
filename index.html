@@ -13,20 +13,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </head>
 
-<body class="container">
+<body class="">
     <!-- Header -->
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper card-panel blue ">
             <a href="#" class="brand-logo">Logo</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a href="">Inicio</a></li>
+                <li><a href="badges.html">Videojuegos</a></li>
+                <li><a href="collapsible.html">Blogs</a></li>
             </ul>
         </div>
     </nav>
     <!--/ Header -->
     <!-- Cuerpo -->
+    <!-- Carrusel -->
+    <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+    </div>
+    <!--/ Carrusel -->
+
+    <!-- Cartas  -->
+
+    <!-- /Cartas  -->
 
     <!--/ Cuerpo -->
 
@@ -36,6 +48,9 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $('.carousel.carousel-slider').carousel({ fullWidth: true });
+    </script>
 </body>
 
 </html>
